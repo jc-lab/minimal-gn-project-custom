@@ -3,4 +3,3 @@
 # found in the LICENSE file.
 
 buildconfig = "//build/config/BUILDCONFIG.gn"
-secondary_source = "//build/secondary/"
