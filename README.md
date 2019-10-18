@@ -93,6 +93,12 @@ DEPS | (optional) declares dependencies so that this project can be managed by g
 
 ### Build the project
 
+**WARNING** You should set `DEPOT_TOOLS_WIN_TOOLCHAIN=0` to environment.
+
+If you not, it will be shown the `Username for 'https://chrome-internal.googlesource.com':`.
+
+
+
 In the `minimal-gn-project` directory, run this command:
 
 `gn gen out`
