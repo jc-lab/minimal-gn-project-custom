@@ -21,7 +21,7 @@ You need to install Chromium's [`depot_tools`](http://www.chromium.org/developer
 Run these commands in an empty directory:
 
 ```
-gclient config --unmanaged https://github.com/skopf/minimal-gn-project.git
+gclient config --unmanaged https://github.com/jc-lab/minimal-gn-project.git
 gclient sync
 ```
 
